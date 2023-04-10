@@ -6,8 +6,8 @@ public:
 	int nim;		//objek
 	string nama;
 	void tampil() {  //procudure metode
-		cout << "nim= " << nim;
-		cout << "\nNama" << nama;
+		cout << "\nnim= " << nim;
+		cout << "\nNama= " << nama;
 	}
 };
 
@@ -17,7 +17,7 @@ private:	//akses modifier
 	string kode;
 	string namaMK;
 public:
-	void input() {
+	void inputMK() {
 		cout << " \nMasukan Jumlah sks= ";
 		cin >> sks;
 		cout << "\nMasukkan kode MK :";
@@ -27,15 +27,16 @@ public:
 	}
 
 	void tampilMK() {
-		cout << "\njumlah sks= " << sks;
-		cout << "\nKode MK= " << kode;
-		cout << "\nNama MK= " << namaMK;
+		cout << "\nTampilkan Kode Matakuliah = " << sks << endl;
+		cout << "Tampilkan Kode Matakuliah = " << kode << endl;
+		cout << "Tampilkan Nama MK " << namaMK << endl;
 
 	}
+
 };
 
 int main() {
-	Mahasiswa mhs1,mhs2;
+	Mahasiswa mhs1;
 	MataKuliah mk;
 
 	cout << "Masukkan NIM = ";
@@ -43,10 +44,9 @@ int main() {
 	cout << "Masukan Nama = ";
 	cin >> mhs1.nama;
 
-	cout << "Masukkan NIM = ";
-	cin >> mhs2.nim;
-	cout << "Masukan Nama = ";
-	cin >> mhs2.nama;
+	mk.inputMK();
+	mhs1.tampil();
+	mk.tampilMK();
 
 
 }
