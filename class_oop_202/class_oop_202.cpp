@@ -4,8 +4,11 @@ using namespace std;
 
 class Mahasiswa{
 public:
-	Mahasiswa();
-	~Mahasiswa();
+	int nim;
+	string nama;
+	void tampil() {
+
+	}
 
 private:
 
