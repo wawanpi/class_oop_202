@@ -7,7 +7,8 @@ public:
 	int nim;
 	string nama;
 	void tampil() {
-
+		cout << "nim= " << nim;
+		cout << "\nNama" << nama;
 	}
 
 private:
