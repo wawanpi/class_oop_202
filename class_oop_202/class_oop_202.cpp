@@ -10,15 +10,8 @@ public:
 		cout << "nim= " << nim;
 		cout << "\nNama" << nama;
 	}
-
-private:
-
 };
 
-Mahasiswa::Mahasiswa()
-{
-}
-
-Mahasiswa::~Mahasiswa()
-{
+class Matakuliah; {
+	public
 }
