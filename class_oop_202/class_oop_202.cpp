@@ -34,5 +34,9 @@ public:
 	}
 };
 
-int main()
+int main() {
+	Mahasiswa;
+	MataKuliah;
+
+}
 
