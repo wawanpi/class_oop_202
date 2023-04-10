@@ -17,11 +17,14 @@ private:	//akses modifier
 	string kode;
 	string namaMK;
 public:
-void input(){
-	cout << " \nMasukan Jumlah sks= ";
-	cin >> sks;
-	cout << "\nMasukkan kode MK :";
-	cin >> kode;
-	cout << "\nMasukan Nama Mk = ";
-	cin >> namaMK;
+	void input() {
+		cout << " \nMasukan Jumlah sks= ";
+		cin >> sks;
+		cout << "\nMasukkan kode MK :";
+		cin >> kode;
+		cout << "\nMasukan Nama Mk = ";
+		cin >> namaMK;
+	}
+	
+	void tampilMK() {
 	
