@@ -1,10 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 class Mahasiswa{
 public:
-	int nim;
+	int nim;		//objek
 	string nama;
 	void tampil() {  //procudure metode
 		cout << "nim= " << nim;
@@ -18,5 +17,5 @@ private:	//akses modifier
 	string kode;
 	string namaMK;
 public:
-
-};
+void input(){
+	cout
