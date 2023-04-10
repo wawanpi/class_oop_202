@@ -18,4 +18,10 @@ private:	//akses modifier
 	string namaMK;
 public:
 void input(){
-	cout
+	cout << " \nMasukan Jumlah sks= ";
+	cin >> sks;
+	cout << "\nMasukkan kode MK :";
+	cin >> kode;
+	cout << "\nMasukan Nama Mk = ";
+	cin >> namaMK;
+	
