@@ -35,8 +35,19 @@ public:
 };
 
 int main() {
-	Mahasiswa;
-	MataKuliah;
+	Mahasiswa mhs1,mhs2;
+	MataKuliah mk;
+
+	cout << "Masukkan NIM = ";
+	cin >> mhs1.nim;
+	cout << "Masukan Nama = ";
+	cin >> mhs1.nama;
+
+	cout << "Masukkan NIM = ";
+	cin >> mhs2.nim;
+	cout << "Masukan Nama = ";
+	cin >> mhs2.nama;
+
 
 }
 
