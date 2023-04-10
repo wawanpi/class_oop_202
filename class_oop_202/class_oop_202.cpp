@@ -6,7 +6,7 @@ class Mahasiswa{
 public:
 	int nim;
 	string nama;
-	void tampil() {
+	void tampil() {  //procudure metode
 		cout << "nim= " << nim;
 		cout << "\nNama" << nama;
 	}
@@ -17,4 +17,6 @@ private:	//akses modifier
 	int sks;
 	string kode;
 	string namaMK;
+public:
+
 };
